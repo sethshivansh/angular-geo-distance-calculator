@@ -8,16 +8,21 @@ South latitudes are negative, east longitudes are positive.
 
 Passed to function:
 
-    lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :::
-    lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  
+    lat1, lon1 = Latitude and Longitude of point 1 / Origin (in decimal degrees)
+    lat2, lon2 = Latitude and Longitude of point 2 / Destination (in decimal degrees)  
     unit = the unit you desire for results                           
         where: 'M' is statute miles (default)
        'K' is kilometers 
 
 ## Algorithm Code
+    /* METHOD: calculate_distance
+    PARAMS: lat1 : Origin Latitude, lon1 : Origin Longitude, lat2 : Destination Latitude, lon2: Destination Longitude, unit: ('K)
+    PURPOSE: Algorithm to calculate te distance between two points
+    CREATOR: @shivanshSeth
+    Refrences : Haversine formula : for more details visit (https://en.wikipedia.org/wiki/Haversine_formula) 
+    */
 
-
-    function distance(lat1, lon1, lat2, lon2, unit) {
+    function calculate_distance(lat1, lon1, lat2, lon2, unit) {
       if ((lat1 == lat2) && (lon1 == lon2)) {
         return 0;
       }
