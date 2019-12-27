@@ -1,24 +1,14 @@
 # Searching Algorithm
 
-//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-//:::                                                                         :::
-//:::  This Algorithm calculates the distance between two points (given the   :::
-//:::  latitude/longitude of those points).                                   :::
-//:::                                                                         :::
-//:::  Definitions:                                                           :::
-//:::    South latitudes are negative, east longitudes are positive           :::
-//:::                                                                         :::
-//:::  Passed to function:                                                    :::
-//:::    lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :::
-//:::    lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  :::
-//:::    unit = the unit you desire for results                               :::
-//:::           where: 'M' is statute miles (default)                         :::
-//:::                  'K' is kilometers                                      :::
-//:::  Refrences : Haversine formula : For more details                       :::
-                    visit (https://en.wikipedia.org/wiki/Haversine_formula)   :::                                                                                                    :::
-//:::                                                                         :::
-//:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
+This Algorithm calculates the distance between two points (given the latitude/longitude of those points).
+Definitions:
+South latitudes are negative, east longitudes are positive 
+Passed to function:
+lat1, lon1 = Latitude and Longitude of point 1 (in decimal degrees)  :::
+lat2, lon2 = Latitude and Longitude of point 2 (in decimal degrees)  
+unit = the unit you desire for results                           
+    where: 'M' is statute miles (default)
+   'K' is kilometers 
 
 ## Algorithm Code
 
