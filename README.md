@@ -9,6 +9,7 @@ This Algorithm calculates the distance between two points (given the latitude/lo
 South latitudes are negative, east longitudes are positive.
 
 Passed to function: 
+
         lat1, lon1 = Latitude and Longitude of point 1/ origin (in decimal degrees).
         
         lat2, lon2 = Latitude and Longitude of point 2/ destination (in decimal degrees).
