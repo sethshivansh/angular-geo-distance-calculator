@@ -4,19 +4,22 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This Algorithm calculates the distance between two points (given the latitude/longitude of those points). 
 
-###Definitions: 
+### Definitions:
 
 South latitudes are negative, east longitudes are positive.
 
-Passed to function: lat1, lon1 = Latitude and Longitude of point 1/ origin (in decimal degrees).
-
-lat2, lon2 = Latitude and Longitude of point 2/ destination (in decimal degrees)
-
-unit = the unit you desire for results.
-
-where: 'M' is statute miles (default).
+Passed to function: 
+        lat1, lon1 = Latitude and Longitude of point 1/ origin (in decimal degrees).
         
-        'K' is kilometers
+        lat2, lon2 = Latitude and Longitude of point 2/ destination (in decimal degrees).
+        
+        unit = the unit you desire for results.
+
+where: 
+
+        'M' is statute miles (default).
+        
+        'K' is kilometers.
 
 ## Development server
 
@@ -40,13 +43,13 @@ Follow the below steps to run your application API server.
 
 ### Step-1 : 
 Go to the `server` directory.
-`work-space > angular-geo-distance-calculator > cd server`
+
+    `work-space > angular-geo-distance-calculator > cd server`
 ### Step-2 : 
 Run command `node server.ts`.
-`work-space > angular-geo-distance-calculator > server  > node server.ts`
- This will start your server & output similar screen.
- 
-
+  
+    `work-space > angular-geo-distance-calculator > server  > node server.ts`
+    
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
