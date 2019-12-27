@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+This Algorithm calculates the distance between two points (given the latitude/longitude of those points). 
+
+###Definitions: 
+
+South latitudes are negative, east longitudes are positive.
+
+Passed to function: lat1, lon1 = Latitude and Longitude of point 1/ origin (in decimal degrees).
+
+lat2, lon2 = Latitude and Longitude of point 2/ destination (in decimal degrees)
+
+unit = the unit you desire for results.
+
+where: 'M' is statute miles (default).
+        
+        'K' is kilometers
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
