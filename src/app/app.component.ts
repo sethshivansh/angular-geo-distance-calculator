@@ -13,6 +13,10 @@ export class AppComponent {
     CREATOR: @shivanshSeth
   */
   getCustomers(event){
+    event.sort(function(obj1, obj2) {
+      // Ascending: by user_id of customers
+      return obj1.user_id - obj2.user_id;
+    });
     console.log("Inside App componenet", event);
     this.filtredCustomers = event ; // Binding Data coming from Search componenet
   }
