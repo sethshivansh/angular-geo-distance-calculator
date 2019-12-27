@@ -1,0 +1,12 @@
+<div class="container">
+  <!-- Search Section Div Starts -->
+  <div class="row justify-content-center marginTopBottom">
+    <div class="col-md-8">
+      <app-search (sendCustomerDataToApp)="getCustomers($event)"></app-search>
+    </div>
+  </div>
+  <!-- Search Section Div Ends -->
+  <!-- Matched Customers List Table Code Starts -->
+  <app-customer-list [customerData]="filtredCustomers"></app-customer-list>
+  <!-- Matched Customers List Tabel Code Ends -->
+</div>
