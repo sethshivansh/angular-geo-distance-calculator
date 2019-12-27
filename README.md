@@ -1,4 +1,4 @@
-# CodingTest
+# angular-geo-distance-calculator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -6,21 +6,30 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Steps to run the Application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Please follow the below steps to run project.
 
-## Build
+### Step-1 : 
+Clone or Download the (angular-geo-distance-calculator) repository
+### Step-2 : 
+Install all project dependencies by Run `npm install` commaon in root of your project. This will install all the npm dependencies.
+### Step-3 : 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Steps to run the Application API server
 
-## Running unit tests
+Once your UI application is running sucessfully , we have to start our API server ( node.js server), which will listion to all the requests coming from our UI end.
+Follow the below steps to run your application API server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Step-1 : 
+Go to the `server` directory.
+`work-space > angular-geo-distance-calculator > cd server`
+### Step-2 : 
+Run command `node server.ts`.
+`work-space > angular-geo-distance-calculator > server  > node server.ts`
+ This will start your server & output similar screen.
+ 
 
 ## Further help
 
