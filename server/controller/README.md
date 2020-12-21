@@ -12,7 +12,7 @@ Passed to function:
     lat2, lon2 = Latitude and Longitude of point 2 / Destination (in decimal degrees)  
     unit = the unit you desire for results                           
         where: 'M' is statute miles (default)
-       'K' is kilometers 
+       'K' is kilometers , 'N'  is for Nautical miles.
 
 ## Algorithm Code
     /* METHOD: calculate_distance
@@ -40,6 +40,7 @@ Passed to function:
         dist = dist * 60 * 1.1515;
         if (unit=="K") { dist = dist * 1.609344 }
         if (unit=="N") { dist = dist * 0.8684 }
+        if (unit == "M") { dist = dist * 0.621371 }
         return dist;
       }
     }
