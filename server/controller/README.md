@@ -1,6 +1,6 @@
 # Searching Algorithm
 
-This Algorithm calculates the distance between two points (given the latitude/longitude of those points).
+This Algorithm calculates the distance(air distance) between two points (given the latitude/longitude of those points).
 
 ### Definitions:
 
